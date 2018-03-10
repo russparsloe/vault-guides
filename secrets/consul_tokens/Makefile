@@ -14,6 +14,12 @@ down:
 	@echo '#################################################'
 	docker-compose down -v
 
+quickstart:
+	@echo '#####################################################'
+	@echo '>>> Performing all necessary config for Quickstart...'
+	@echo '#####################################################'
+	@./scripts/quickstart.sh
+
 test:
 	@echo '######################################'
 	@echo '>>> Run validation tests via InSpec...'
