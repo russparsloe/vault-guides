@@ -10,7 +10,7 @@ data "template_file" "vault_aws_auth_policy_template" {
 }
 
 resource "aws_iam_user" "vault_demo_user" {
-  name = "vault_demo_user"
+  name = "vault_demo_user_russp"
 }
 
 resource "aws_iam_access_key" "vault_demo_user_key" {
